@@ -11,7 +11,7 @@ class Statuses extends Field {
     public $component = 'dce-statuses-field';
 
     public $showOnCreation = false;
-    public $showOnUpdate = false;
+    public $showOnUpdate = true;
     public $showOnIndex = false;
 
     /**
