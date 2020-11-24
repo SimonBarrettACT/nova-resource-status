@@ -19,7 +19,7 @@ class Status extends Resource {
             Text::make(__('Status'), 'status'),
             Text::make(__('Date'), 'date'),
             Text::make(__('By'), 'creator-name'),
-//             Text::make('Note', 'note'),
+            Text::make(__('Note'), 'note'),
         ];
     }
 
