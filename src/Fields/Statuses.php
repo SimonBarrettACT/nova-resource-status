@@ -44,7 +44,7 @@ class Statuses extends Field {
 
     public function __construct()
     {
-        parent::__construct('Status Log', 'statuses');
+        parent::__construct(__('Status Log'), 'statuses');
 
         $resource = \DigitalCloud\NovaResourceStatus\Resources\Status::class;
 
