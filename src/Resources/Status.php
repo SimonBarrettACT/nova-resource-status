@@ -16,9 +16,9 @@ class Status extends Resource {
     public function fields(Request $request)
     {
         return [
-            Text::make('Status', 'status'),
-            Text::make('Date', 'date'),
-            Text::make('By', 'creator-name'),
+            Text::make(__('Status'), 'status'),
+            Text::make(__('Date'), 'date'),
+            Text::make(__('By'), 'creator-name'),
 //             Text::make('Note', 'note'),
         ];
     }
